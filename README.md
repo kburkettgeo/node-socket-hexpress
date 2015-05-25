@@ -5,5 +5,5 @@ install dependencies:   `npm install`
 
 run the server:  `node hexGameServer.js`
 
-open a couple of browsers (like chrome and firefox) and start clicking around!
+open a couple of browsers (like chrome and firefox), point them at http://localhost:3000, and start clicking around!
 
