@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>HexGame</title>
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="http://localhost:3000/js/hexGridViewer.js"></script>
+    <script src="http://localhost:3000/js/hexGameViewer.js"></script>
+</head>
+<body>
+    <div id="divGridInfo">
+        <div style="float:left; margin:5px; padding:10px; border: solid">
+            <label>Columns: </label><input type="number" id="txtColumns" value="dunno" style="width:40px"/><br/>
+            <label>Rows: </label><input type="number" id="txtRows" value="dunno" style="width:40px"/><br/>
+            <label>HexRadius: </label><input type="number" id="txtHexRadius" value="dunno" style="width:40px"/>
+            <input id="btnRedraw" type="button" value="Redraw"/>
+        </div>
+        <div style="float:left; margin:5px; padding:10px; border: solid">
+            <label>HexSide: </label><label id="lblHexSide">dunno</label><br/>
+            <label>HexHeight: </label><label id="lblHexHeight">dunno</label><br/>
+            <label>HexWidth: </label><label id="lblHexWidth">dunno</label><br/>
+        </div>
+        <div style="float:left; margin:5px; padding:10px; border: solid;">
+            <label>Tile: </label><label id="lblTile">dunno</label><br/>
+            <label>Hex: </label><label id="lblHex">dunno</label><br/>
+            <label>Mouse: </label><label id="lblMouse">dunno</label><br/>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+    <div>
+        <canvas id="HexCanvas" width="1000" height="700"></canvas>
+    </div>
+    <script>
+        var hexGameViewer = HexGameViewer();
+
+    </script>
+
+</body>
+

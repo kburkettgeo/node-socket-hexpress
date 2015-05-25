@@ -1,0 +1,19 @@
+{
+  "name": "node-socket-hexpress",
+  "version": "0.1.0",
+  "author": "stlbucket",
+  "description": "multi-browser hex-game viewer",
+  "dependencies": {
+    "express": "^4.12.4",
+    "lodash": "^3.9.2",
+    "socket.io": "^1.3.5",
+    "when": "^3.7.3",
+    "util": "^0.10.3",
+    "moment": "^2.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}
